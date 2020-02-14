@@ -1,8 +1,21 @@
 #top {display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 0 auto;
-    width:1300px;
        }
+#mech {margin:0 auto;
+margin-top:30px;}
+
+#graduate{margin:0 auto;
+   margin-top:30px;}
+
+#div1{margin:0 auto;
+   margin-top:30px;}
+
+#div2{margin:0 auto;
+   margin-top:30px;}
+
+#prog{margin:0 auto;
+   margin-top:30px;}
 
 #top_line {
 border-bottom: 3px solid darkgray;
