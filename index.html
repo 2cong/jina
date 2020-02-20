@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Jina</title>
     <link rel="stylesheet" type="text/css" href="jina.css">
+   
 </head>
 <body> 
     <h1 id="top"> 
@@ -25,8 +26,39 @@
 </h1> 
 <h2 id="top_line"> </h2>
     <h2 id ="my_name"><span style="font-size:35px">Hello I am</span> <span style="font-size:50px">Jina</span></h2> 
-   <img src="jina.png" width=350px id="jina"> <br>
-    <p id="icon">
+
+<div id="middle3">
+    <div style="margin:0 auto"> 
+        <div id="changecolor" style="font-size:22px; text-align:center;">I wanna change background Color</div>
+        <div id="que" style="font-size:22px; text-align:center;" >What's your name?</div>
+        <div id="ans"><input type="text" id="whoru" placeholder="Name & Press Enter" style="width:215px; height:30px; background-color:#dedede; font-size:22px; border:none;" onkeypress="if(event.keyCode==13){myFunction();}" ></div>
+        <div id="hi" style="font-size:22px; text-align:center;">&nbsp</div>
+    </div>
+
+    <div>
+        <img src="jina.png" width=350px id="jina"><br>
+    </div>
+
+    <div style="margin:0 auto">
+        <div id="chcolor2" style="font-size:22px; text-align:center;"><input id="chcol" type="button" value="Next is Pink" style=" font-size:22px; display:none;"
+        onclick="{changecolor();}"></div>
+       <div id="hi4" style="font-size:22px; text-align:center;" >&nbsp<br> </div>
+       <div id="yesno" style="font-size:22px; color:white; text-align:center">    
+        Yes<input id="yes" type="radio" name="y_n" value="yes" style="display:none;" onclick="{ckbutton();}">
+        &nbsp&nbsp
+        No<input id="no" type="radio" name="y_n" value="no" style="display:none;" onclick="{ckbutton2();}">  
+        </div>
+        <div id="ckevent">
+            <input id="page" type="button" value= "Click here" style="display:none; font-size:22px; text-align:center;" onclick = "location.href = 'js.html'">
+            <input id="change" type="button" value= "Change Guest?" style="display:none; font-size:22px; text-align:center;" onclick="window.location.reload()">
+        </div>
+    </div>
+
+</div> 
+
+
+     
+<p id="icon">
         <img src="call.png" title="Click here" width=40px  onclick=alert("010-8343-5660") > 
         <a href="mailto:cjina3710@gmail.com" title="Click here"><img src="mail.png" width=40px height=45px></a>
         <a href="https://velog.io/@2cong" title="Click here" target="_blank"><img src="blog.png" width=40px></a>
@@ -53,6 +85,8 @@
     <a href="devel.html" title="Click here"><img src="jina.png" width=200px></a>
 </li>
 </ul>
+
+<script type="text/javascript" src="js.js"></script>
 </body>
 </html>
 
